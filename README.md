@@ -1,3 +1,1 @@
-# Jatte
-
-This project is the base starter for a tutorial from Code With Stein
+I am going to understand how working Channels, WebSocket, ASGI, WSGI, Daphne
