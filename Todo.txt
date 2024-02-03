@@ -1,0 +1,65 @@
+DONE Install virtual environment
+DONE Install all packages from requirements.txt
+DONE Install Tailwind
+https://tailwindcss.com/docs/installation
+npm install 
+open new terminal and go to our directory
+npx tailwindcss -i ./static/css/main.css -o ./static/css/main.min.css --watch
+
+DONE Add channels, channels=daphne to settings 
+INSTALLED_APPS=['daphe',
+
+..........
+]
+DONE Add to settungs.py
+#for http (syncronous)
+WSGI_APPLICATION = 'jatte.wsgi.application'
+#for ws (asynchronous) server
+ASGI_APPLICATION = 'jatte.asgi.application'
+--------
+DONE 
+#channel layers for (save messages in DB for small websites)
+CHANNEL_LAYERS = {
+    'default':{
+        'BACKEND':'channels.layers.InMemoryChannelLayer',
+    }
+}
+
+DONE run server ASGI
+----
+Done AUTHENTICATION, add this field to settins.py
+
+#-----because we have a custom user model for this project
+AUTH_USER_MODEL = 'account.User'
+Done Create a chat app for communiction (creating room)
+DONE Create basic Consumer in chat.py
+DONE Set a routing file for Consumer
+DONE set up asgi.py file
+DONE Set Model for Message'
+DONE Set Model for room
+DONE HTML FOR CHAT Bubble
+DONE Connect Backend using Webscokets
+DONE Make possible to send a messages to Backend
+DONE create a function in consumers.py
+DONE SET function for reciveing and sending the data to consumers
+DONE Send messages using js
+DONE Saving messages in database
+DONE create a basic page for listening out room chats
+DONE Put room list in separate file
+DONE Make it possible to open the room
+Done Inside the room connect to the web socket and load messages
+DONE Receive and show real time messages 
+DONE Make it possible to send messages to other users
+To make it possible to send mesages onclick enter on KeyBoard
+Scroll to the bottom of the message when you send a message
+
+
+
+
+
+
+
+
+
+
+

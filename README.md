@@ -1,2 +1,3 @@
-# Django-Chatting-App
-I am going to understand how working WebSocket, ASGI, Channels, Daphne, JS parts
+# Jatte
+
+This project is the base starter for a tutorial from Code With Stein
